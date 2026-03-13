@@ -1,0 +1,141 @@
+.skills-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    perspective: 1500px;
+}
+
+.skill-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    transform-style: preserve-3d;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.skill-card:hover {
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.profile {
+    padding-top: 25px;
+}
+
+.profile h1 {
+    display: flex;
+    justify-content: center;
+    color: #A53DFF;
+    padding-top: 35px 25px;
+}
+
+.skill-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #A53DFF;
+    border-bottom: 2px solid #A53DFF;
+    padding-bottom: 5px;
+}
+
+
+
+.skill-card li {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+
+}
+
+.skill-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    padding: 2px;
+    background: linear-gradient(90deg, #A53DFF, #ff5edf);
+    -webkit-mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.skill-card:hover::before {
+    opacity: 1;
+}
+
+.about-me {
+    background: linear-gradient(270deg, #ffffff, #f0e5ff, #ee90fc);
+    background-size: 600% 600%;
+    animation: gradientMove 8s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body.dark .skill-card li {
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .skills-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 25px 50px;
+        perspective: 1300px;
+    }
+
+    .profile h1 {
+        display: flex;
+        justify-content: center;
+        color: #A53DFF;
+        padding-top: 30px;
+    }
+
+    .skills-section h1 {
+        display: flex;
+        justify-content: center;
+        color: #A53DFF;
+    }
+
+    .skill-card {
+        flex: 1 1 45%;
+    }
+
+    .skill-card h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills-section {
+        perspective: 1300px;
+    }
+
+    .skill-card {
+        flex: 1 1 30%;
+    }
+
+
+    .profile {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+}

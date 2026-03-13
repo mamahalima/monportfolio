@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: blue;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--tertiary-color);
+    color: var(--text-light);
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.btn:hover {
+    background-color: var(--violet-light);
+}
+
+.content-text h1 {
+    background: linear-gradient(90deg,
+            var(--secondary-color),
+            var(--violet-accent));
+    -webkit-background-clip: text;
+
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark span li {
+    color: white;
+}
+
+body.dark main,
+body.dark .home-section,
+body.dark .stack-section,
+body.dark .contact-section {
+    background: #0f0265;
+    color: #eee;
+}
+
+body.dark .profile {
+    background: #050123;
+}
+
+body.dark .about-me {
+    background: linear-gradient(#59038f, #5a45e4, #59038f)
+}
+
+body.dark .skills-section h2 {
+    color: #2f0368 !important;
+}
+
+body.dark .profile {
+    background: linear-gradient(#0f0265, #5a45e4);
+}
+
+body.dark .projects-page {
+    background: linear-gradient(#5a45e4, #0f0265);
+}
+
+body.dark img {
+    filter: brightness(0.9);
+}
+
+body.dark .stack-card,
+body.dark .project-card {
+    color: #fff;
+}
+
+body.dark .skill-card h2 {
+    color: #A53DFF
+}
+
+body.dark footer {
+    background: #1e1e1e;
+    color: #fff;
+}

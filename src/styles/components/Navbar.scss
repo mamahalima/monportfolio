@@ -1,0 +1,140 @@
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-logo {
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #A53DFF, #DA4DF1);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Berkshire Swash', sans-serif;
+}
+
+.navbar-links ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 3px 5px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    background-color: #A53DFF;
+    color: white;
+}
+
+.navbar-links a.active {
+    background-color: #A53DFF;
+    color: white;
+}
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-toggle .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+
+.nav-toggle .bar1 {
+    transform: rotate(45deg) translateY(8px);
+}
+
+.nav-toggle .bar2 {
+    opacity: 0;
+}
+
+.nav-toggle .bar3 {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    color: inherit;
+}
+
+body.dark .navbar-links.open {
+    background-color: black;
+    color: white;
+}
+
+body.dark .navbar-links a {
+    color: white
+}
+
+body.dark .navbar {
+    background-color: #1f0244;
+    color: white
+}
+
+body.dark .nav-toggle .bar {
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px 0;
+    }
+
+    .navbar-links.open {
+        display: flex;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    body.dark.navbar-links a {
+        color: white;
+    }
+}
+
+@media (max-width: 1024px) {}

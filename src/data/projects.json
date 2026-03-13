@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "P8 – Nina Carducci",
+    "image":{
+      "small": "/projets/ninacarducci_optimized2.webp",
+      "medium": "/projets/ninacarducci_optimized1.webp"
+    },
+    "alt": "Site Nina Carducci optimisé SEO et accessibilité",
+    "description": "Optimisation complète de la qualité web, en mettant l'accent sur l'accessibilité, avec des balises HTML sémantiques et un contraste adapté pour tous les utilisateurs. SEO optimisé pour améliorer le référencement naturel et augmenter la visibilité. Performance web soignée grâce à des audits Lighthouse et des optimisations ciblées.",
+    "tech": [
+      { "name": "Qualité web" },
+      { "name": "Accessibilité"},
+      { "name": "SEO"},
+      { "name": "Performance" },
+      { "name": "Lighthouse" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "P9 – 724Events",
+    "image": {
+      "small": "/projets/724events_optimized1.webp",
+      "medium": "/projets/724events_optimized2.webp"
+    },
+    "description": "Projet dédié au débogage avancé utilisant les Chrome DevTools pour identifier et corriger les bugs. Réalisation et documentation complète de tests fonctionnels afin d'assurer la qualité du site. Rédaction d'un cahier de recette précis pour formaliser la validation des fonctionnalités avant mise en production.",
+    "tech": [
+      { "name": "Débogage" },
+      { "name": "Tests fonctionnels" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "P7 – Kasa",
+    "image":{
+      "small": "/projets/kasa_optimized1.webp",
+      "medium": "/projets/kasa_optimized2.webp"
+    },
+    "description": "Développement d'une application web dynamique en React, avec des composants réutilisables et performants. Mise en place de la navigation multi-pages fluide et intuitive via React Router. Interface utilisateur pensée pour une expérience simple et efficace sur tous les appareils.",
+    "tech": [
+      { "name": "React"},
+      { "name": "React Router" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "P10 – ArgentBank",
+    "image": {
+      "small": "/projets/argentBank_optimized1.webp",
+      "medium": "/projets/argentBank_optimized2.webp"
+    },
+    "description": "Gestion avancée de l'état global avec Redux pour un suivi précis des données utilisateurs. Configuration et intégration des appels API REST pour une communication fluide avec le backend. Développement d'une interface sécurisée et performante pour la gestion bancaire en ligne.",
+    "tech": [
+      { "name": "Redux" },
+      { "name": "API REST"},
+      { "name": "Redux Devtools" }
+    ]
+  }
+]

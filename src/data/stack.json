@@ -1,0 +1,69 @@
+{
+  "stack": [
+    {
+      "id": 1,
+      "name": "HTML5",
+      "icons": {
+        "small": "/assets/htmlLogo_optimized2.webp",
+        "large": "/assets/htmlLogo_optimized1.webp"
+      }
+    },
+    {
+      "id": 2,
+      "name": "CSS3",
+      "icons": {
+        "small": "/assets/cssLogo_optimized2.webp",
+        "large": "/assets/cssLogo_optimized2.webp"
+      }
+    },
+
+    {
+      "id": 3,
+      "name": "SCSS",
+      "icons": {
+        "small": "/assets/sassLogo_optimized2.webp",
+        "large": "/assets/sassLogo_optimized1.webp"
+      }
+    },
+    {
+      "id": 4,
+      "name": "REDUX",
+      "icons": {
+        "small": "/assets/reduxLogo_optimized2.webp",
+        "large": "/assets/reduxLogo_optimized1.webp"
+      }
+    },
+    {
+      "id": 5,
+      "name": "REACT",
+      "icons": {
+        "small": "/assets/reactLogo_optimized2.webp",
+        "large": "/assets/reactLogo_optimized1.webp"
+      }
+    },
+    {
+      "id": 6,
+      "name": "JEST",
+      "icons": {
+        "small": "/assets/jestLogo_2.webp",
+        "large": "/assets/jestLogo_1.webp"
+      }
+    },
+    {
+      "id": 7,
+      "name": "GITHUB",
+      "icons": {
+        "small": "/assets/githubLogo_optimizedcopy_optimized2.webp",
+        "large": "/assets/githubLogo_optimizedcopy_optimized1.webp"
+      }
+    },
+    {
+      "id": 8,
+      "name": "JS",
+      "icons": {
+        "small": "/assets/JavascriptLogo_optimized2.webp",
+        "large": "/assets/JavascriptLogo_optimized1.webp"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "skillsFrontend": [
+    { "category": "HTML / CSS", "skills": ["HTML sémantique", "CSS / SASS", "Responsive design", "Animations", "Maquettes"] },
+    { "category": "JavaScript", "skills": ["DOM", "ES6+", "Interactions dynamiques", "Formulaires"] },
+    { "category": "Interaction & API", "skills": ["Appels API", "Composants interactifs", "UX responsive"] },
+    { "category": "Qualité Web", "skills": ["Accessibilité", "SEO", "Performance", "Tests fonctionnels"] },
+    { "category": "React / State Management", "skills": ["React", "React Router", "Redux", "API REST"] },
+    { "category": "Méthodologie & Gestion de projet", "skills": ["Spécifications techniques", "Kanban", "Veille technologique"] },
+    { "category": "Outils", "skills": ["Git / GitHub", "Figma", "Outils de suivi"] }
+  ]
+}
